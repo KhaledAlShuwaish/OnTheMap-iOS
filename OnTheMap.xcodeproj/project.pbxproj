@@ -13,6 +13,16 @@
 		29BA908022114679008150C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BA907F22114679008150C3 /* Assets.xcassets */; };
 		29BA908322114679008150C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BA908122114679008150C3 /* LaunchScreen.storyboard */; };
 		29BA908E22114679008150C3 /* OnTheMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BA908D22114679008150C3 /* OnTheMapTests.swift */; };
+		29BA909D2213F895008150C3 /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BA909C2213F895008150C3 /* StudentLocation.swift */; };
+		29BA909F2213F9DB008150C3 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BA909E2213F9DB008150C3 /* API.swift */; };
+		29BA90A12213FA3D008150C3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BA90A02213FA3D008150C3 /* MapViewController.swift */; };
+		29C4D9302214537E002EE2B9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4D92F2214537E002EE2B9 /* TableViewController.swift */; };
+		29C4D9322214551A002EE2B9 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4D9312214551A002EE2B9 /* TableViewCell.swift */; };
+		29C4D9342215674A002EE2B9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4D9332215674A002EE2B9 /* LoginViewController.swift */; };
+		29C4D9362217187C002EE2B9 /* ActivityIndicatory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4D9352217187C002EE2B9 /* ActivityIndicatory.swift */; };
+		29C4D93822171C61002EE2B9 /* AppAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4D93722171C61002EE2B9 /* AppAlert.swift */; };
+		29C4D93A2217E7A8002EE2B9 /* AddLoactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4D9392217E7A8002EE2B9 /* AddLoactionViewController.swift */; };
+		29C4D93C2217F77B002EE2B9 /* ConfirmLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4D93B2217F77B002EE2B9 /* ConfirmLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,16 @@
 		29BA908922114679008150C3 /* OnTheMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BA908D22114679008150C3 /* OnTheMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapTests.swift; sourceTree = "<group>"; };
 		29BA908F22114679008150C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BA909C2213F895008150C3 /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
+		29BA909E2213F9DB008150C3 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		29BA90A02213FA3D008150C3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		29C4D92F2214537E002EE2B9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		29C4D9312214551A002EE2B9 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		29C4D9332215674A002EE2B9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		29C4D9352217187C002EE2B9 /* ActivityIndicatory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatory.swift; sourceTree = "<group>"; };
+		29C4D93722171C61002EE2B9 /* AppAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlert.swift; sourceTree = "<group>"; };
+		29C4D9392217E7A8002EE2B9 /* AddLoactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLoactionViewController.swift; sourceTree = "<group>"; };
+		29C4D93B2217F77B002EE2B9 /* ConfirmLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +98,16 @@
 			isa = PBXGroup;
 			children = (
 				29BA907822114674008150C3 /* AppDelegate.swift */,
+				29C4D93D221808EC002EE2B9 /* ViewControllers */,
 				29BA907A22114674008150C3 /* ViewController.swift */,
 				29BA907C22114674008150C3 /* Main.storyboard */,
 				29BA907F22114679008150C3 /* Assets.xcassets */,
 				29BA908122114679008150C3 /* LaunchScreen.storyboard */,
 				29BA908422114679008150C3 /* Info.plist */,
+				29C4D93E2218091D002EE2B9 /* Model */,
+				29C4D93F22180929002EE2B9 /* Cell */,
+				29C4D9352217187C002EE2B9 /* ActivityIndicatory.swift */,
+				29C4D93722171C61002EE2B9 /* AppAlert.swift */,
 			);
 			path = OnTheMap;
 			sourceTree = "<group>";
@@ -94,6 +119,35 @@
 				29BA908F22114679008150C3 /* Info.plist */,
 			);
 			path = OnTheMapTests;
+			sourceTree = "<group>";
+		};
+		29C4D93D221808EC002EE2B9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				29C4D9392217E7A8002EE2B9 /* AddLoactionViewController.swift */,
+				29C4D92F2214537E002EE2B9 /* TableViewController.swift */,
+				29C4D93B2217F77B002EE2B9 /* ConfirmLocationViewController.swift */,
+				29BA90A02213FA3D008150C3 /* MapViewController.swift */,
+				29C4D9332215674A002EE2B9 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		29C4D93E2218091D002EE2B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29BA909C2213F895008150C3 /* StudentLocation.swift */,
+				29BA909E2213F9DB008150C3 /* API.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29C4D93F22180929002EE2B9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				29C4D9312214551A002EE2B9 /* TableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +251,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C4D9342215674A002EE2B9 /* LoginViewController.swift in Sources */,
+				29BA909D2213F895008150C3 /* StudentLocation.swift in Sources */,
+				29C4D9362217187C002EE2B9 /* ActivityIndicatory.swift in Sources */,
+				29C4D9322214551A002EE2B9 /* TableViewCell.swift in Sources */,
+				29C4D9302214537E002EE2B9 /* TableViewController.swift in Sources */,
+				29C4D93C2217F77B002EE2B9 /* ConfirmLocationViewController.swift in Sources */,
 				29BA907B22114674008150C3 /* ViewController.swift in Sources */,
+				29C4D93822171C61002EE2B9 /* AppAlert.swift in Sources */,
+				29BA909F2213F9DB008150C3 /* API.swift in Sources */,
+				29BA90A12213FA3D008150C3 /* MapViewController.swift in Sources */,
 				29BA907922114674008150C3 /* AppDelegate.swift in Sources */,
+				29C4D93A2217E7A8002EE2B9 /* AddLoactionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMYVJW3LU6;
 				INFOPLIST_FILE = OnTheMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,6 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KSH.OnTheMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,7 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DMYVJW3LU6;
 				INFOPLIST_FILE = OnTheMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -385,6 +454,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KSH.OnTheMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

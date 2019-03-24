@@ -11,6 +11,8 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    static var StudentLocatiosData = [Any?]()
+
     var window: UIWindow?
 
 
